@@ -45,6 +45,7 @@ a{
     justify-content: space-between;
     /* padding: 2rem 15rem; */
     padding: 2rem 15rem 2rem ;
+						
 }
 
 .navbar .navbar-left h2{
@@ -84,9 +85,10 @@ a{
 .navbar .navbar-right div{
     margin-top: 0.5rem;
 }
+
 .navbar .navbar-right button, .red-button{
     border: none;
-    padding: 0.7rem 2rem;
+    padding: 1.2rem 2.5rem;
     background-color: red;
     border-radius: 0.5rem;
     color: white;
@@ -98,12 +100,48 @@ a{
     background-image: url("./assets/images/laptop.jpg");
     height: 93vh;
     text-align: center;
+				  
+							  
+							   
+					
+							 
+						
+ 
+
+					   
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 15rem;
     position: relative;
+					   
+					
+					  
+				 
+ 
+
+									 
+									  
+					   
+				  
+						   
+				 
+ 
+
+										 
+										  
+				
+					   
+				 
 }
+
+										 
+							 
+ 
+
+										  
+							  
+ 
 
 .middle-section .middle-section-heading{
     color: white;
@@ -119,9 +157,9 @@ a{
     margin-bottom: 4rem;
 }
 
-.middle-section .middle-section-btn button{
+/* .middle-section .middle-section-btn button{
     padding: 10px 20px;
-}
+} */
 
 .middle-section .middle-section-bottom{
     display: flex;
@@ -158,8 +196,9 @@ a{
 }
 
 .smiddle-section .smiddle-section-left h2{
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
+    font-weight: bolder;					
 }
 
 .smiddle-section .smiddle-section-left p{
@@ -353,7 +392,10 @@ a{
 }
 
 .footer-section .footer-section-options .footer-section-options-contact ul li{
-    margin-right: 0.5rem;
+    margin-right: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;			  
 }
 
 .footer-section .footer-section-options .footer-section-options-contact ul li img{
@@ -376,9 +418,9 @@ a{
 }
 
 .footer-section .footer-section-options .footer-section-options-links ul li img{
-    width: 13px;
-    transform: rotate(270deg);
-    opacity: 0.4;
+     width: 1rem;
+    opacity: 0.6;
+    margin-right: 0.5rem;
 }
 
 .footer-section .footer-section-options .footer-section-options-newsletter{
@@ -391,7 +433,7 @@ a{
 .footer-section .footer-section-options .footer-section-options-newsletter p{
     line-height: 2rem;
     /* color: #4D4F5C; */
-    margin: 1.5rem 0 1.5rem;
+    margin: 3rem 0;
 }
 
 .footer-section .footer-section-options .footer-section-options-newsletter div{
@@ -402,6 +444,7 @@ a{
     padding: 7px;
     border-radius: 0.2rem;
     border: none;
+	width: 100%;			
 }
 
 .footer-section .footer-section-options .footer-section-options-newsletter div button{
@@ -432,17 +475,16 @@ a{
 } */
 
 .fixed-arrow{
-    background-color: white;
-    border-radius: 5%;
-    padding: 2px;
+    border-radius: 12%;
+    padding: 0.9rem 0.4rem;
     position: fixed;
     bottom: 1rem;
-    right: 2rem;
+    right: 1rem;
 }
 
 .fixed-arrow img{
-    width: 15px;
-    height: 15px;
+    width: 3rem;
+    height: 1.5rem;
 }
 
 .menu-bar{
@@ -568,7 +610,7 @@ a{
         padding: 2rem 7rem;
     }
     .navbar{
-        padding: 2rem 7rem 2rem ;
+        padding: 2rem 4rem 2rem ;
     }
 
     .navbar .navbar-right ul li {
